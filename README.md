@@ -27,3 +27,9 @@ Adjusting the radius of the drawn circle would allow the car to better adapt to 
 **4. A note on the hyperparameters**
 
 In my initial approaches, the main parameters I tweaked was the Learning rate but I noticed that the learning in many cases was not converging with a high learning rate. I thus later on used smaller learning rates and got better results for my models. In the next steps, I played with the discount factor, using a lower one because in the reward function implemented here, the focus is not on rewarding past actions but more on rewarding the position of the car.
+
+**5. Final Competition Ranking**
+
+The final ranking of the competition that took place on the Barcelona (Catalunya) circuit was the following:
+
+![](https://github.com/mohamedkhanafer/ReinforcementLearning/blob/master/images/final_ranking.png)
